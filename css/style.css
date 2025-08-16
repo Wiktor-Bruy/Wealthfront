@@ -2,6 +2,8 @@
 
 :root {
   --text: #230859;
+  --back: #ffffff;
+  --btn: #4840bb;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -31,4 +33,122 @@ img {
 a {
   text-decoration: none;
   color: inherit;
+}
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-color: transparent;
+  border: none;
+}
+.container {
+  max-width: 1440px;
+  padding: 0 64px;
+  margin: 0 auto;
+}
+.btn {
+  border-radius: 6px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+.btn-tr {
+  background-color: transparent;
+  border: 1px solid var(--btn);
+  color: var(--btn);
+  transition: background-color 350ms ease, color 350ms ease;
+}
+.btn-tr:hover,
+.btn-tr:focus {
+  background-color: var(--btn);
+  color: var(--back);
+}
+.btn-blue {
+  background-color: var(--btn);
+  color: var(--back);
+  border: 1px solid var(--btn);
+  transition: background-color 350ms ease, color 350ms ease;
+}
+.btn-blue:hover,
+.btn-blue:focus {
+  background-color: var(--back);
+  color: var(--btn);
+}
+
+/*--------------------------------------------------Header--------------------------------------------*/
+.head-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigat {
+  display: flex;
+  align-items: center;
+}
+.logo-link-top {
+  display: flex;
+  gap: 6;
+  align-items: center;
+  margin-right: 300px;
+}
+.logo-text {
+  font-size: 24px;
+  font-weight: 1000;
+  line-height: 1.15;
+}
+.nav-list {
+  display: flex;
+  line-height: 1.59;
+}
+.nav-link {
+  display: inline-block;
+  padding: 35px 24px;
+  transition: background-color 350ms ease, color 350ms ease, opacity 350ms easew;
+}
+.nav-link:hover,
+.nav-link:focus {
+  background-color: var(--text);
+  opacity: 0.3;
+  color: var(--back);
+}
+.top-btn-list {
+  display: flex;
+  gap: 12px;
+}
+.top-btn-list .btn-tr {
+  width: 86px;
+  height: 45px;
+}
+.top-btn-list .btn-blue {
+  width: 120px;
+  height: 45px;
+}
+
+/*--------------------------------------------------Section-hero--------------------------------------------*/
+.hero-box {
+  display: flex;
+}
+.hero-title-box {
+  padding: 140px 150px 0 64px;
+}
+.hero-image {
+  max-width: 745px;
+}
+.hero-title {
+  font-size: 50px;
+  line-height: 1.14;
+  letter-spacing: 0.04em;
+  margin-bottom: 30px;
+}
+.text {
+  font-size: 15px;
+  line-height: 1.44;
+}
+.hero-text {
+  max-width: 250px;
+  margin-bottom: 40px;
+}
+.hero-title-box .btn-blue {
+  width: 120px;
+  height: 45px;
 }
