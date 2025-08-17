@@ -74,6 +74,18 @@ button {
   background-color: var(--back);
   color: var(--btn);
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 /*--------------------------------------------------Header--------------------------------------------*/
 .head-cont {
@@ -124,7 +136,7 @@ button {
   height: 45px;
 }
 
-/*--------------------------------------------------Section-hero--------------------------------------------*/
+/*--------------------------------------------------Section-1-hero--------------------------------------------*/
 .hero-box {
   display: flex;
 }
@@ -151,4 +163,194 @@ button {
 .hero-title-box .btn-blue {
   width: 120px;
   height: 45px;
+}
+.hero-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+.hero-list-img-one {
+  margin-bottom: 12px;
+}
+.hero-list-text {
+  font-size: 12px;
+  line-height: 1.6;
+}
+.hero-list-img-two {
+  margin-bottom: 12px;
+}
+.hero-big-text {
+  font-size: 27px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+}
+.hero-list-iten {
+  position: relative;
+}
+.hero-list-img-star {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(220%, 30%);
+}
+
+/*--------------------------------------------------Section-2-invest--------------------------------------------*/
+.invest-cont {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.invest-box {
+  padding-left: 80px;
+  max-width: 445px;
+}
+.section-title {
+  font-size: 56px;
+  line-height: 0.96;
+  letter-spacing: 0.05em;
+}
+.invest-text {
+  line-height: 1.27;
+  font-size: 17px;
+  margin-bottom: 38px;
+}
+.invest-btn-list {
+  display: flex;
+  gap: 32px;
+}
+.invest-btn-list .btn-blue {
+  width: 145px;
+  height: 45px;
+}
+.invest-btn-list .btn-tr {
+  width: 120px;
+  height: 45px;
+}
+
+/*--------------------------------------------------Section-3-cash--------------------------------------------*/
+.cash-cont {
+  display: flex;
+  gap: 31px;
+}
+.cash-img {
+  max-width: 854px;
+}
+.cash-box {
+  padding-top: 162px;
+}
+.cash-btn-list {
+  display: flex;
+  gap: 32px;
+}
+.cash-btn-list .btn-blue {
+  width: 126px;
+  height: 45px;
+}
+.cash-btn-list .btn-tr {
+  width: 120px;
+  height: 45px;
+}
+
+/*--------------------------------------------------Section-4-relax--------------------------------------------*/
+.relax {
+  background-color: var(--btn);
+}
+.relax-cont {
+  display: flex;
+  gap: 150px;
+  color: var(--back);
+}
+.relax-box {
+  padding-top: 98px;
+  padding-bottom: 98px;
+}
+
+/*--------------------------------------------------Section-5-reviev--------------------------------------------*/
+.reviev {
+  background-color: var(--text);
+}
+/* .rev-cont {
+  position: relative;
+} */
+.list-rev {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+  transform: translateY(35%);
+}
+.list-rev-item {
+  position: relative;
+  padding: 48px 5px 20px 40px;
+  background-color: var(--back);
+  border: 1px solid var(--btn);
+  border-radius: 6px;
+  width: 400px;
+  min-height: 450px;
+}
+.rev-title {
+  font-size: 12px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+.rev-text {
+  font-size: 42px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+}
+.rev-text span {
+  font-weight: 700;
+}
+.rev-box {
+  min-height: 325px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*--------------------------------------------------Section-6-brand--------------------------------------------*/
+.brand-cont {
+  padding-top: 30px;
+  padding-bottom: 130px;
+}
+.brand-img {
+  max-width: 600px;
+  margin: 0 auto 55px auto;
+}
+.brand-title {
+  text-align: center;
+  font-size: 58px;
+  line-height: 0.93;
+  letter-spacing: 0.05em;
+  margin: 0 auto 50px auto;
+  max-width: 910px;
+}
+.brand-title span {
+  font-weight: 700;
+}
+.brand-btn {
+  margin: 0 auto 95px auto;
+  width: 120px;
+  height: 45px;
+}
+.brand-list-title {
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.18;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+.brand-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
 }

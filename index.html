@@ -54,6 +54,7 @@
             <img
               class="hero-image"
               srcset="./image/hero.jpg 1x, ./image/hero@x2.jpg 2x"
+              src="./image/hero.jpg"
               alt="hero image"
               width="745"
               height="559"
@@ -66,129 +67,251 @@
               <button class="btn btn-blue" type="button">Get started</button>
             </div>
           </div>
-          <ul>
-            <li>
-              <img src="" alt="" />
-              <p>Best Robo-advisor, 2019 1</p>
-              <p>Best Cash Management App, 2020 1</p>
-            </li>
-            <li>
-              <img src="" alt="" />
-              <p>Best Robo-advisor, 2020</p>
-            </li>
-            <li>
-              <p>450K+</p>
-              <p>Trusted clients</p>
-            </li>
-            <li>
-              <p>$268B+</p>
-              <p>In client funds</p>
-            </li>
-            <li>
-              <p>
-                <span>4.9</span>
-                <img src="" alt="" />
+          <ul class="hero-list">
+            <li class="hero-list-iten">
+              <img
+                class="hero-list-img-one"
+                src="./image/hero-list1.svg"
+                alt="image list one"
+                width="133"
+                height="21"
+              />
+              <p class="hero-list-text">Best Robo-advisor, 2019 <sup>1</sup></p>
+              <p class="hero-list-text">
+                Best Cash Management App, 2020 <sup>1</sup>
               </p>
-              <p>Apple App 2</p>
             </li>
-            <li>
+            <li class="hero-list-iten">
+              <img
+                class="hero-list-img-two"
+                src="./image/hero-list2.svg"
+                alt="hero list image two"
+                width="136"
+                height="21"
+              />
+              <p class="hero-list-text">Best Robo-advisor, 2020 <sup>1</sup></p>
+            </li>
+            <li class="hero-list-iten">
+              <p class="hero-big-text">450K+</p>
+              <p class="hero-list-text">Trusted clients</p>
+            </li>
+            <li class="hero-list-iten">
+              <p class="hero-big-text">$268B+</p>
+              <p class="hero-list-text">In client funds</p>
+            </li>
+            <li class="hero-list-iten">
               <p>
-                <span>4.5</span>
-                <img src="" alt="" />
+                <span class="hero-big-text">4.9</span>
+                <img
+                  class="hero-list-img-star"
+                  src="./image/hero-list5.svg"
+                  alt="image star"
+                  width="22"
+                  height="22"
+                />
               </p>
-              <p>Google Play 2</p>
+              <p class="hero-list-text">Apple App Store <sup>2</sup></p>
+            </li>
+            <li class="hero-list-iten">
+              <p>
+                <span class="hero-big-text">4.5</span>
+                <img
+                  class="hero-list-img-star"
+                  src="./image/hero-list5.svg"
+                  alt="image star"
+                  width="22"
+                  height="22"
+                />
+              </p>
+              <p class="hero-list-text">Google Play <sup>2</sup></p>
             </li>
           </ul>
         </div>
       </section>
 
-      <section>
-        <div>
-          <h2>Investing isn`t easy. We just make it feel that way.</h2>
-          <p>
-            Let us customize a portfolio just for you or build it yourself, and
-            our powerful automation will make the most of your investments,
-            optimizing your performance and helping lower your taxes.
-          </p>
-          <ul>
-            <li><button type="button">Start investing</button></li>
-            <li><button type="button">Learn more</button></li>
-          </ul>
-          <img src="" alt="" />
+      <section class="invest">
+        <div class="container invest-cont">
+          <div class="invest-box">
+            <h2 class="section-title">
+              Investing isn`t easy. We just make it feel that way.
+            </h2>
+            <p class="invest-text">
+              Let us customize a portfolio just for you or build it yourself,
+              and our powerful automation will make the most of your
+              investments, optimizing your performance and helping lower your
+              taxes.
+            </p>
+            <ul class="invest-btn-list">
+              <li>
+                <button class="btn btn-blue" type="button">
+                  Start investing
+                </button>
+              </li>
+              <li>
+                <button class="btn btn-tr" type="button">Learn more</button>
+              </li>
+            </ul>
+          </div>
+          <img
+            srcset="./image/hero.jpg 1x, ./image/invest@x2.png 2x"
+            src="./image/invest.png"
+            alt="image invest"
+            width="677"
+            height="750"
+          />
         </div>
       </section>
 
-      <section>
-        <div>
-          <h2>Everyday cash, designed to build long-term wealth.</h2>
-          <p>
-            Our Cash account, offered with Green Dot Bank, lets you automate
-            your savings, so you can pay bills, withdraw from 19,000+ ATMs, and
-            invest your extra cash in seconds to keep building your future.
-          </p>
-          <ul>
-            <li><button type="button">Start saving</button></li>
-            <li><button type="button">Learn more</button></li>
-          </ul>
-          >
+      <section class="cash">
+        <div class="container cash-cont">
+          <img
+            class="cash-img"
+            srcset="./image/cash.png 1x, ./image/cash@x2.png 2x"
+            src="./image/cash.png"
+            alt="image cash section"
+            width="854"
+            height="802"
+          />
+          <div class="cash-box">
+            <h2 class="section-title">
+              Everyday cash, designed to build long-term wealth.
+            </h2>
+            <p class="invest-text">
+              Our Cash account, offered with Green Dot Bank, lets you automate
+              your savings, so you can pay bills, withdraw from 19,000+ ATMs,
+              and invest your extra cash in seconds to keep building your
+              future.
+            </p>
+            <ul class="cash-btn-list">
+              <li>
+                <button class="btn btn-blue" type="button">Start saving</button>
+              </li>
+              <li>
+                <button class="btn btn-tr" type="button">Learn more</button>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 
-      <section>
-        <div>
-          <h2>Saving and investing. All while you`re relaxing.</h2>
-          <p>
-            Tell us what you`re saving for, and we`ll automatically set aside
-            extra cash to hit your goals. And since we connect with all your
-            accounts, you only need one app to watch your wealth grow.
-          </p>
+      <section class="relax">
+        <div class="container relax-cont">
+          <div class="relax-box">
+            <h2 class="section-title">
+              Saving and investing. All while you`re relaxing.
+            </h2>
+            <p class="invest-text">
+              Tell us what you`re saving for, and we`ll automatically set aside
+              extra cash to hit your goals. And since we connect with all your
+              accounts, you only need one app to watch your wealth grow.
+            </p>
+          </div>
+          <img
+            srcset="./image/relax.jpg 1x, ./image/relax@x2.jpg 2x"
+            src="./image/relax.jpg"
+            alt="relax section image"
+            width="640"
+            height="542"
+          />
         </div>
       </section>
 
-      <section>
-        <div>
-          <h2>List revievs</h2>
-          <ul>
-            <li>
-              <p>Testimonial</p>
-              <p>
-                It's the single best resource for both investing, managing
-                retirement and seeing my entire financial picture.
-              </p>
-              <p>Joshua B</p>
+      <section class="reviev">
+        <div class="container rev-cont">
+          <h2 class="visually-hidden">List revievs</h2>
+          <ul class="list-rev">
+            <li class="list-rev-item">
+              <p class="rev-title">Testimonial</p>
+              <div class="rev-box">
+                <p class="rev-text">
+                  <span>It's the single best</span> resource for both investing,
+                  managing retirement and seeing my entire financial picture.
+                </p>
+                <p>Joshua B</p>
+              </div>
             </li>
-            <li>
-              <p>Testimonial</p>
-              <p>
-                Wealthfront is the first thing in my life that actually
-                motivated me to save money.
-              </p>
-              <p>Isidore</p>
+            <li class="list-rev-item">
+              <p class="rev-title">Testimonial</p>
+              <div class="rev-box">
+                <p class="rev-text">
+                  <span>Wealthfront</span> is the first thing in my life that
+                  actually motivated me to save money.
+                </p>
+                <p>Isidore</p>
+              </div>
             </li>
-            <li>
-              <p>Testimonial</p>
-              <p>It`s automatic, and I`m lazy.</p>
-              <p>Ryan</p>
+            <li class="list-rev-item">
+              <p class="rev-title">Testimonial</p>
+              <div class="rev-box">
+                <p class="rev-text">
+                  <span>It`s automatic</span>, and I`m lazy.
+                </p>
+                <p>Ryan</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
 
-      <section>
-        <div>
-          <h2>
-            Over 450,000 people are already using Wealthfront to earn more and
-            worry less
+      <section class="brand">
+        <div class="container brand-cont">
+          <img
+            class="brand-img"
+            srcset="./image/brand.png 1x, ./image/brand@x2.png 2x"
+            src="./image/brand.png"
+            alt="image section brand"
+            width="600"
+            height="600"
+          />
+          <h2 class="brand-title">
+            Over <span>450,000</span> people are already using Wealthfront to
+            earn more and worry less
           </h2>
-          <img src="" alt="" />
-          <button type="button">Get started</button>
-          <p>As featured in</p>
-          <ul>
-            <li><img src="" alt="" /></li>
-            <li><img src="" alt="" /></li>
-            <li><img src="" alt="" /></li>
-            <li><img src="" alt="" /></li>
-            <li><img src="" alt="" /></li>
+          <button class="btn btn-blue brand-btn" type="button">
+            Get started
+          </button>
+          <p class="brand-list-title">As featured in</p>
+          <ul class="brand-list">
+            <li>
+              <img
+                src="./image/brand-list1.svg"
+                alt="brand list image"
+                width="60"
+                height="30"
+              />
+            </li>
+            <li>
+              <img
+                src="./image/brand-list2.svg"
+                alt="brand list image"
+                width="174"
+                height="33"
+              />
+            </li>
+            <li>
+              <img
+                src="./image/brand-list3.svg"
+                alt="brand list image"
+                width="335"
+                height="45"
+              />
+            </li>
+            <li>
+              <img
+                src="./image/brand-list4.svg"
+                alt="brand list image"
+                width="235"
+                height="60"
+              />
+            </li>
+            <li>
+              <img
+                src="./image/brand-list5.svg"
+                alt="brand list image"
+                width="60"
+                height="47"
+              />
+            </li>
           </ul>
         </div>
       </section>
