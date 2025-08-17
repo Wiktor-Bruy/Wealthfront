@@ -4,6 +4,9 @@
   --text: #230859;
   --back: #ffffff;
   --btn: #4840bb;
+  --bottom: #18172b;
+  --down-txt: #f7e9e2;
+  --picer: #f5fc14;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -353,4 +356,52 @@ button {
   justify-content: space-between;
   align-items: center;
   margin-top: 24px;
+}
+
+/*-----------------------------------------------------Footer-----------------------------------------------*/
+.down-line {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: var(--bottom);
+  color: var(--down-txt);
+}
+.logo-box-dovn {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--down-txt);
+  margin-bottom: 35px;
+}
+.logo-down {
+  display: flex;
+  gap: 6px;
+}
+.logo-down-icon {
+  width: 24px;
+  height: 24px;
+}
+.dowm-list-box {
+  display: flex;
+  gap: 55px;
+}
+.dowm-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.down-link {
+  min-width: 115px;
+  display: inline-block;
+  color: var(--back);
+  font-weight: 500;
+  transition: color 350ms ease;
+}
+.down-link:hover,
+.down-link:focus {
+  color: var(--picer);
+}
+.down-text {
+  font-size: 10px;
+  line-height: 1.6;
+  text-align: justify;
 }
